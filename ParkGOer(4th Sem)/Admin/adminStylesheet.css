@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:lightyellow;
+}
+
+/* CSS for header */
+.header{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: navy;
+    height: 110px;
+    width: 100%;
+    overflow:hidden;
+}
+
+/* CSS for image of logo in header */
+.logoImg{
+    margin: 10px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    width: 140px;
+    height: 70px;
+    background-color: navy;
+}
+
+.verticalNavBar{
+    margin: 0;
+    margin-top: 110px;
+    padding: 10px;
+    width: 275px;
+    height: 100vh;
+    position: absolute;
+    background: navy;
+}
+
+.verticalNavBar li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    display: block;
+    width:100%;
+    height: 50px;
+    font-size: 25px;
+    background: navy;
+}
+
+.verticalNavBar li a:hover{
+    background: orange;
+    font-size: 27px;
+    font-weight:600;
+}
+
+p{
+    background-color: aliceblue;
+    font-size: 60px;
+}
+
+.dashContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.dashBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+    margin: 10px;
+    gap: 30px;
+    background-color: aliceblue;
+}
+
+.workingArea{
+    margin-top: 10px;
+    margin-left: 275px;
+    padding: 50px;
+    background: lightyellow;
+    
+}
+
+h1{
+    font-size: larger;
+    background-color: white;
+}
+
+form{
+    background-color: white;
+}
+
+fieldset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    gap: 20px;
+    background-color: white;
+    border-radius: 30px
+}
+
+form input{
+    width: 400px;
+    height: 25px;
+    border-radius: 20px;
+    border: 1px solid black;
+    align-items: center;
+    background-color: lightsteelblue;
+}
+
+textarea{
+    width: 400px;
+    border: 1px solid black;
+    outline:0px;
+    align-items: center;
+    background-color: lightsteelblue;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+#button{
+    border-radius: 5px;
+    background-color: orangered;
+}
+
+.btn{
+	width: 150px;
+    height: 30px;
+    background: orangered;
+    color: black;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background: orange;
+    color: white;
+}
+
+.horizontalNavBar{
+    margin-left: 275px;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    background-color:navy;
+}
+
+.horizontalNavBar ul{
+    position: relative;
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    background-color: white;
+}
+
+.horizontalNavBar ul li{
+    list-style-type: none;
+}
+
+.horizontalNavBar ul a{
+    color: white;
+    text-decoration: none;
+}
+
+.horizontalNavBar ul a{
+    display: block;
+    font-size: large;
+    font-weight:600;
+    position: absolute;
+    background-color:navy;
+    color:white;
+}
+
+select{
+    background-color: white;
+}
+
+a.horizNavElements:hover{
+    background-color:navy;
+    border-bottom: 2px solid orange;
+}
+
+.NavElements.active{
+    background: orangered;
+    color: white;
+}
+
+.active{
+    border-bottom: 2px solid orangered;
+}
+
+.usedTicket{
+    color: gray;
+}
+
+.logout{
+    text-decoration:none;
+    color:white;
+    background-color: orangered;
+    padding: 10px;
+}

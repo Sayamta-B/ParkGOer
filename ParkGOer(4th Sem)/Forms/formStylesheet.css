@@ -1,0 +1,118 @@
+*{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background:#FFFACD;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoImg{
+    width: 220px;
+    height: 110px;
+    margin-bottom: 30px;
+}
+
+.box{
+    width: 400px;
+    height:auto;
+    padding: 20px;
+    background: lightyellow;
+    border-top: 2px solid darkblue;
+    border-bottom: 2px solid darkblue;
+}
+
+div .title{
+    border-radius: 5px;
+    font-size: 25px;
+    background: orange;
+    color: black;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: lightyellow;
+}
+
+.formLine{
+    display: flex;
+    flex-direction: column;
+    background: lightyellow;
+}
+
+label{
+    font-size: 17px;
+    color:black;
+    background: lightyellow;
+}
+
+form input{
+    width: 350px;
+    height: 25px;
+    background: lightblue;
+    border-radius: 20px;
+    border: 0px;
+    outline:0px;
+    align-items: center;
+}
+
+form input:focus{
+    border:1px solid darkblue;
+}
+
+span{
+    color: orangered; 
+    display: block; 
+    font-size: 16px;
+    background-color: lightyellow;
+}
+
+.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+}
+
+.button{
+    width: 150px;
+    height: 30px;
+    background: orange;
+    color: black;
+    border-radius: 5px;
+}
+
+.button:hover{
+    background: darkorange;
+    color: white;
+}
+
+form a{
+    background: lightyellow;
+    color: orangered;
+    font-size: 15px;
+}
+
+p{
+    background: lightyellow;
+    font-size: 15px;
+    color: indigo;
+    text-align: center;
+}
